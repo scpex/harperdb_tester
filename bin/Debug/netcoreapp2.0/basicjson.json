@@ -1,0 +1,19 @@
+{
+    "operation": "insert",
+    "schema": "jsonTests",
+    "table": "basic",
+    "records": [
+        {
+            "name": "Harper",
+            "breed": "Mutt",
+            "id": "1",
+            "age": 5
+        },
+        {
+            "name": "Penny",
+            "breed": "Mutt",
+            "id": "3",
+            "age": 5
+        }
+    ]
+}

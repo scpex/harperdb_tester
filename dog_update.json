@@ -1,0 +1,16 @@
+{
+  "operation":"update",
+  "schema":"dev",
+  "table":"dog",
+  "records": [
+    {
+      "id": 1,
+      "name": "Hugo"
+    },
+      {
+      "id": 3,
+      "breed": "scpex",
+      "age": 3
+    }
+  ]
+}

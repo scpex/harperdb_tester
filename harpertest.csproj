@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+     <GenerateProgramFile>false</GenerateProgramFile>
+  </PropertyGroup>
+
+<ItemGroup>
+
+  <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+  <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.0.0" />
+  <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.0.0" />
+  <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.0" />
+</ItemGroup>
+<ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0-preview-20170628-02" />
+    <PackageReference Include="xunit" Version="2.2.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
+  </ItemGroup>
+ 
+
+<ItemGroup>
+  <None Update="computers_insert.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+  <None Update="harperdb.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+   <None Update="basicjson.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+  <None Update="dog.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+  <None Update="dog_update.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+  <None Update="search_dog.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
+
+<Target Name = "CopyFiles" AfterTargets="build">
+    <Copy DestinationFolder="$(OutputPath)" SourceFiles="basicjson.json" SkipUnchangedFiles = "false" />
+    <Copy DestinationFolder="$(OutputPath)" SourceFiles="dog.json" SkipUnchangedFiles = "false" />
+    <Copy DestinationFolder="$(OutputPath)" SourceFiles="dog_update.json" SkipUnchangedFiles = "false" />
+    <Copy DestinationFolder="$(OutputPath)" SourceFiles="search_dog.json" SkipUnchangedFiles = "false" />
+</Target>
+
+</Project>

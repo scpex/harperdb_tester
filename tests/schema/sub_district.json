@@ -1,0 +1,9 @@
+{
+    "operation":"search_by_value",
+    "table":"subdistrict",
+    "schema":"thailand",
+    "search_attribute":"AMPHOE_E",
+    "hash_attribute" : "id",
+    "search_value":"Mueang Phayao",
+    "get_attributes":["*"]
+}

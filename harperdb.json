@@ -1,0 +1,11 @@
+/*{
+  "server": "http://harperdbperf.westcentralus.cloudapp.azure.com:9925",
+  "authorization": "Basic aGFycGVyZGI6aGFycGVyZGI="
+}
+*/
+{
+  "server": "http://localhost:9925",
+  "authorization": "Basic SERCX0FETUlOOnJvb3QxOTg0"
+}
+// http://localhost:9925
+// Basic SERCX0FETUlOOnJvb3QxOTg0

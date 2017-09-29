@@ -1,0 +1,6 @@
+{
+    "operation": "insert",
+    "schema": "mycos",
+    "table": "birds",
+    "records": []
+}

@@ -1,0 +1,9 @@
+{
+    "operation":"search_by_value",
+    "table":"dog",
+    "schema":"root",
+    "search_attribute":"name",
+    "hash_attribute" : "id",
+    "search_value":"hugo*",
+    "get_attributes":["dog_name"]
+}
