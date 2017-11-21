@@ -1,9 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/scpex/.dotnet/store/|arch|/|tfm|",
-      "/home/scpex/.nuget/packages",
-      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Users\\Ed PC\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Ed PC\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }
